@@ -16,8 +16,8 @@ async def prn_status(pnr: str):
     response = requests.get(url)
 
     # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        # Parse the HTML content of the page
-        soup = BeautifulSoup(response.text, 'html.parser')
-        return response.text
-    return response.text
+    # if response.status_code == 200:
+    #     # Parse the HTML content of the page
+    #     soup = BeautifulSoup(response.text, 'html.parser')
+    #     return response.text
+    return {response.status_code:response.text}
