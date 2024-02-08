@@ -20,4 +20,4 @@ async def prn_status(pnr: str):
         # Parse the HTML content of the page
         soup = BeautifulSoup(response.text, 'html.parser')
         return response.text
-    return response.status_code
+    return response.text
