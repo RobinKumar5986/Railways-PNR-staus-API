@@ -10,7 +10,7 @@ app = FastAPI()
 @app.get("/status")
 async def prn_status(pnr: str):
     # Specify the URL of the website
-    url = f"https://www.confirmtkt.com/pnr-status/{pnr}"
+    url = "https://www.confirmtkt.com/pnr-status/4361365838"
 
     # Send an HTTP request to the URL
     response = requests.get(url)
