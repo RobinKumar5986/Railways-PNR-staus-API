@@ -52,7 +52,7 @@ def get_pnr_status(pnr):
     else:
         print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
         return None
-log = get_pnr_status(pnr)
+log = get_pnr_status(4361365838)
 peint(log)
 app = FastAPI()
 @app.get("/status")
