@@ -9,4 +9,4 @@ from fastapi.responses import JSONResponse
 app = FastAPI()
 @app.get("/status")
 async def prn_status(pnr: str):
-    return {"hello":"world"}}
+    return {"hello":"world"}
