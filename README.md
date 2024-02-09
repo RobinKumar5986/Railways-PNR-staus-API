@@ -13,7 +13,7 @@ Please do not use this commercially.
 feel free to contact me for any issus.
 
 Sample Working response 
-
+```javascript
 {
     "ShowBlaBlaAd": false,
     "ShowCab": false,
@@ -97,9 +97,9 @@ Sample Working response
     "VikalpTransferredMessage": "",
     "FlightBannerUrl": "https://cdn.confirmtkt.com/img/banner/flight_banner_waitlist_cancellation_screen.png"
 }
-
+```
 Wrong response JSON 
-
+```javascript
 {
     "ShowBlaBlaAd": false,
     "ShowCab": false,
@@ -157,3 +157,4 @@ Wrong response JSON
     "VikalpTransferredMessage": "",
     "FlightBannerUrl": "https://cdn.confirmtkt.com/img/banner/home_screen_flight_banner.png"
 }
+```
