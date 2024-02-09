@@ -1,3 +1,11 @@
+Technology used :- Python
+```
+FAST API
+WEB SCRAPING
+Rende.com -> for deployment (free)
+```
+
+
 I have created an API for getting the Indian railway PNR statis.
 [Yoc can try the API at ](https://pnr-status-for-railways-api.onrender.com/docs)
 
