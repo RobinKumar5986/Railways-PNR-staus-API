@@ -1,5 +1,5 @@
-requests
-bs4
-BeautifulSoup
-fastapi[all]
-uvicorn
+beautifulsoup4==4.10.0
+bs4==0.0.1
+fastapi[all]==0.68.0
+requests==2.26.0
+uvicorn==0.15.0
